@@ -1,2 +1,2 @@
-# ShuttleRunPlugin
+# ToraumaRun
 マインクラフトでシャトルランができちゃう奴。やったね！
