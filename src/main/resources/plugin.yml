@@ -1,0 +1,9 @@
+name: ToraumaRun
+main: net.kunmc.lab.toraumarun.ToraumaRun
+api-version: 1.15
+version: 1.0
+commands:
+  torauma:
+    description: '/torauma helpから見てね'
+    usage: '/torauma help から見てね'
+    default: true
