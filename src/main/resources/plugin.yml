@@ -1,9 +1,11 @@
 name: ToraumaRun
+version: 1.1
 main: net.kunmc.lab.toraumarun.ToraumaRun
 api-version: 1.15
-version: 1.0
+depend: [WorldEdit]
 commands:
   torauma:
-    description: '/torauma helpから見てね'
-    usage: '/torauma help から見てね'
-    default: true
+    permission: torauma
+permissions:
+  torauma:
+    default: op
