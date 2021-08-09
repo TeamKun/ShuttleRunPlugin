@@ -1,7 +1,9 @@
 # ToraumaRun
 マインクラフトでシャトルランができちゃう奴。やったね！  
-(動作確認環境はMinecraft1.15.2,Paper-1.15.2です)  
-(V1.0リリース時点でのコードは整理していないので可読性が低いです。気が向いたら修正しておきます。)  
+(動作確認環境はMinecraft1.16.5,Paper-1.16.5です)  
+注意:このプラグインの動作にはWorldEditが必要です。(推奨:worldedit-bukkit-7.2.5-dist.jar)  
+  
+このプラグインの実行後、サーバ内のplugins-ToraumaRun-schematicsの中に、リリースに添付したschems.zipの中身を解凍して入れてください。  
   
 ## コマンド一覧  
 ・/torauma set  
@@ -9,8 +11,6 @@
 ・/torauma start  
 生成されているステージの削除を行います  
 ・/torauma stop  
-生成したステージ上でゲームスタートさせます  
-・/torauma remove  
-現在実行されているゲームを停止させます  
+生成したステージ上でゲームスタートさせます   
 ・/torauma help  
 本プラグインのコマンド一覧とその効果を表示します  
